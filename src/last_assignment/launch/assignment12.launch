@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<launch>
+	<node name="scan" pkg="last_assignment"
+		type="scan.py" output="screen">
+	</node>
+	<node name="car_drive" pkg="last_assignment"
+		type="car_drive.py" output="screen">
+	</node>
+	<node name="car_position" pkg="last_assignment"
+		type="car_position.py" output="screen">
+	</node>
+</launch>

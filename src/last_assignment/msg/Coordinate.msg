@@ -1,0 +1,14 @@
+float32 current_x
+float32 current_y
+float32 current_angle
+float32 inner_x
+float32 inner_y
+float32 inner_proj_x
+float32 inner_proj_y
+float32 outer_x
+float32 outer_y
+float32 outer_proj_x
+float32 outer_proj_y
+float32 distance_to_inner
+float32 distance_to_outer
+string lane
